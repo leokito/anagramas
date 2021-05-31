@@ -27,15 +27,6 @@ function showResults(output) {
     let answer = document.getElementById("resposta")
     answer.value = ""
     answer.innerText = "Os anagramas encontrados para a palavra informada são: " + output + " ";
-
-    // const newElement = document.createElement("p")
-    // newElement.classname = "result";
-
-    // const newText = document.createTextNode("Os anagramas encontrados para a palavra informada são: " + output + " ");
-    // newElement.appendChild(newText); 
-
-    // const destination = document.getElementById("resultado");
-    // destination.appendChild(newElement);
 }
 
 function myFunction() {
@@ -56,11 +47,8 @@ function buttonFunction () {
        btn.setAttribute("class", "classA");
               
     }
-   
 }
 
 let answer = document.getElementById("resposta")
     texto.value = ""
      resposta.innerText = "Os anagramas encontrados para a palavra informada são: " + output + " ";
-
-// });
